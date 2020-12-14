@@ -7,7 +7,7 @@ pipeline {
    // Some parameters
 
     parameters {
-        string (name: 'DOCKER_REG',       defaultValue: 'Islemezz',                   description: 'Docker registry')
+        string (name: 'DOCKER_REG',       defaultValue: 'islemezz',                   description: 'Docker registry')
         string (name: 'IMAGE_NAME',       defaultValue: 'training-app',                                     description: 'Docker Image Name')
         string (name: 'IMAGE_TAG',       defaultValue: 'v1.0',                                     description: 'Docker Image tag')
          string (name: 'PHPMYADMIN_PORT',       defaultValue: '8000',                                     description: 'PHPMyAdmin Port')
